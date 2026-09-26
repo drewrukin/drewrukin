@@ -1,4 +1,4 @@
-# Andrew Rukin
+# Andrew Rukin (Андрей Рукин)
 
 **Security researcher · Open source contributor · LLM security review tooling**
 
