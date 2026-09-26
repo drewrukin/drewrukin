@@ -11,7 +11,7 @@ I research security boundaries in data platforms and identity infrastructure: wh
 | Project | Published CVEs | Research areas |
 | :--- | :---: | :--- |
 | Apache Ranger | 7 | Privilege escalation, code execution, TLS verification, credential exposure |
-| Apache Airflow & FTP provider | 4 | Secret disclosure, team isolation, FTPS protection |
+| Apache Airflow | 4 | Secret disclosure, team isolation, FTPS protection |
 | Apache HBase | 1 | Scanner ownership and authorization |
 | Apache Hive | 1 | SAML authentication and impersonation |
 | Apache Impala | 2 | SAML authentication, SSRF and credential disclosure |
@@ -35,7 +35,7 @@ Each record below credits my contribution as a finder or reporter. Credits may b
 | Ranger | [CVE-2026-65948](https://www.cve.org/CVERecord?id=CVE-2026-65948) | Missing brute-force protection in UnixAuth |
 | Ranger | [CVE-2026-65945](https://www.cve.org/CVERecord?id=CVE-2026-65945) | Replayable JWT bearer tokens in logs |
 | Airflow | [CVE-2026-49487](https://www.cve.org/CVERecord?id=CVE-2026-49487) | Task-instance API exposes deferred trigger secrets |
-| Airflow FTP provider | [CVE-2026-49486](https://www.cve.org/CVERecord?id=CVE-2026-49486) | FTPS data channel lacks encryption |
+| Airflow | [CVE-2026-49486](https://www.cve.org/CVERecord?id=CVE-2026-49486) | FTPS data channel lacks encryption |
 | Airflow | [CVE-2026-65017](https://www.cve.org/CVERecord?id=CVE-2026-65017) | Config API exposes a team's Celery broker secret |
 | Airflow | [CVE-2026-68076](https://www.cve.org/CVERecord?id=CVE-2026-68076) | Connection test API crosses team boundaries |
 | HBase | [CVE-2026-49326](https://www.cve.org/CVERecord?id=CVE-2026-49326) | Missing scanner ownership checks in the Thrift service |
