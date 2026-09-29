@@ -4,7 +4,7 @@
 
 I work across software security research, source code analysis, and open-source engineering. Alongside finding and helping resolve vulnerabilities, I develop practical tools and methodologies that make security review more systematic and reproducible.
 
-Each record below credits my contribution as a finder or reporter. Credits may be shared with other researchers.
+Each record below credits my contribution as a finder or reporter.
 
 [Browse indexed credits on CIRCL Vulnerability-Lookup](https://cve.circl.lu/credits/?q=Rukin).
 
