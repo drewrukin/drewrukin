@@ -6,8 +6,6 @@ I work across software security research, source code analysis, and open-source 
 
 Each record below credits my contribution as a finder or reporter.
 
-[Browse indexed credits on CIRCL Vulnerability-Lookup](https://cve.circl.lu/credits/?q=Rukin).
-
 | Project | Advisory | Finding |
 | :--- | :--- | :--- |
 | **Apache Ranger** | [CVE-2026-40920](https://www.cve.org/CVERecord?id=CVE-2026-40920) | Privilege escalation through URL parameters<br>**Any domain user can become the KMS Key Admin with a single URL parameter.** |
