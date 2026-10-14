@@ -18,11 +18,11 @@ Each record below credits my contribution as a finder or reporter.
 |  | [CVE-2026-65948](https://www.cve.org/CVERecord?id=CVE-2026-65948) | UnixAuth allows unlimited password attempts |
 |  | [CVE-2026-65945](https://www.cve.org/CVERecord?id=CVE-2026-65945) | Ranger writes replayable JWT bearer tokens to logs |
 | **Apache Airflow** | [CVE-2026-49487](https://www.cve.org/CVERecord?id=CVE-2026-49487) | Task-instance API exposes deferred trigger secrets |
-|  | [CVE-2026-49486](https://www.cve.org/CVERecord?id=CVE-2026-49486) | The FTP provider leaves the FTPS data channel unencrypted |
+|  | [CVE-2026-49486](https://www.cve.org/CVERecord?id=CVE-2026-49486) | **Airflow protects the FTPS login with TLS, then sends the file itself without encryption.** |
 |  | [CVE-2026-65017](https://www.cve.org/CVERecord?id=CVE-2026-65017) | Config API exposes a team's Celery broker secret |
-|  | [CVE-2026-68076](https://www.cve.org/CVERecord?id=CVE-2026-68076) | The connection test API uses another team's connection credentials |
+|  | [CVE-2026-68076](https://www.cve.org/CVERecord?id=CVE-2026-68076) | One team can make Airflow log in to another team's service with that team's password. |
 |  | [CVE-2026-86843](https://www.cve.org/CVERecord?id=CVE-2026-86843) | The Teradata provider example DAG allows SQL injection |
-|  | [GHSA-h6wx…3jg7](https://github.com/andreax79/airflow-code-editor/security/advisories/GHSA-h6wx-5586-3jg7) | Read-only DAG users can modify DAG files through airflow-code-editor |
+|  | [GHSA-h6wx…3jg7](https://github.com/andreax79/airflow-code-editor/security/advisories/GHSA-h6wx-5586-3jg7) | Airflow Code Editor lets a read-only viewer upload Python that Airflow executes. |
 | **Apache Hive** | [CVE-2026-53561](https://www.cve.org/CVERecord?id=CVE-2026-53561) | **A forged token with any username is enough to open a real Hive session.** |
 | **Apache HBase** | [CVE-2026-49326](https://www.cve.org/CVERecord?id=CVE-2026-49326) | The Thrift service lets one user take over another user's scanner |
 | **Apache Impala** | [CVE-2026-56207](https://www.cve.org/CVERecord?id=CVE-2026-56207) | **Impala accepts the wrong signature and logs the attacker in as any chosen user.** |
