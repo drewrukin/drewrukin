@@ -22,10 +22,14 @@ Each record below credits my contribution as a finder or reporter.
 |  | [CVE-2026-65017](https://www.cve.org/CVERecord?id=CVE-2026-65017) | Config API exposes a team's Celery broker secret |
 |  | [CVE-2026-68076](https://www.cve.org/CVERecord?id=CVE-2026-68076) | The connection test API uses another team's connection credentials |
 |  | [CVE-2026-86843](https://www.cve.org/CVERecord?id=CVE-2026-86843) | The Teradata provider example DAG allows SQL injection |
-| **Apache HBase** | [CVE-2026-49326](https://www.cve.org/CVERecord?id=CVE-2026-49326) | The Thrift service lets one user take over another user's scanner |
+|  | [GHSA-h6wx…3jg7](https://github.com/andreax79/airflow-code-editor/security/advisories/GHSA-h6wx-5586-3jg7) | Read-only DAG users can modify DAG files through airflow-code-editor |
 | **Apache Hive** | [CVE-2026-53561](https://www.cve.org/CVERecord?id=CVE-2026-53561) | **A forged token with any username is enough to open a real Hive session.** |
+| **Apache HBase** | [CVE-2026-49326](https://www.cve.org/CVERecord?id=CVE-2026-49326) | The Thrift service lets one user take over another user's scanner |
 | **Apache Impala** | [CVE-2026-56207](https://www.cve.org/CVERecord?id=CVE-2026-56207) | **Impala accepts the wrong signature and logs the attacker in as any chosen user.** |
 |  | [CVE-2026-57866](https://www.cve.org/CVERecord?id=CVE-2026-57866) | **A single SQL query can send Impala's cluster-managed AI API key to an attacker-controlled server.** |
+|  | [CVE-2026-93684](https://www.cve.org/CVERecord?id=CVE-2026-93684) | **A table alias turns a SQL query into stored XSS in another user's browser.** |
+|  | [CVE-2026-90466](https://www.cve.org/CVERecord?id=CVE-2026-90466) | JAR path traversal executes code outside the trusted folder. |
+|  | [CVE-2026-97720](https://www.cve.org/CVERecord?id=CVE-2026-97720) | **A JWT with any username and any non-empty signature gets full access to the Impala executor Web UI.** |
 | **FreeIPA** | [CVE-2026-14612](https://www.cve.org/CVERecord?id=CVE-2026-14612) | Off-by-one errors overflow buffers during OAuth2 device authorization |
 |  | [CVE-2026-19550](https://www.cve.org/CVERecord?id=CVE-2026-19550) | The trust refresh operation allows unauthorized LDAP writes |
 | **389 Directory Server** | [CVE-2026-14969](https://www.cve.org/CVERecord?id=CVE-2026-14969) | Attribute encryption uses a static initialization vector |
@@ -34,13 +38,12 @@ Each record below credits my contribution as a finder or reporter.
 |  | [CVE-2026-19404](https://www.cve.org/CVERecord?id=CVE-2026-19404) | Anonymous LDAP clients can start or stop CleanAllRUV maintenance |
 |  | [CVE-2026-19843](https://www.cve.org/CVERecord?id=CVE-2026-19843) | **A crafted LDAP entry name becomes a root command when an administrator opens it.** |
 
-**Additional published advisory:** [GHSA-h6wx-5586-3jg7](https://github.com/andreax79/airflow-code-editor/security/advisories/GHSA-h6wx-5586-3jg7) — authorization bypass in `airflow-code-editor` allows users with read-only DAG access to modify DAG files.
-
 ### Selected upstream fixes
 
 | Project | Fix |
 | :--- | :--- |
-| Apache Airflow | [Keep sensitive edge worker workloads out of logs](https://github.com/apache/airflow/pull/68355) |
+| Apache Airflow | [Prevent GCS-to-SFTP path traversal without blocking valid `../` destinations](https://github.com/apache/airflow/pull/74186) |
+|  | [Keep sensitive edge worker workloads out of logs](https://github.com/apache/airflow/pull/68355) |
 | Apache Hadoop / HDFS | [Mask delegation tokens in WebHDFS client logs](https://github.com/apache/hadoop/pull/8565) |
 | 389 Directory Server | [Reject mismatched certificate names in dynamic certificate requests](https://github.com/389ds/389-ds-base/pull/7680) |
 | 389 Directory Server | [Check password history for every value in a multi-password change](https://github.com/389ds/389-ds-base/pull/7888) |
@@ -55,4 +58,4 @@ Each record below credits my contribution as a finder or reporter.
 
 Interested in application security research, source code review, or practical LLM audit workflows? Explore the projects above and their public discussions.
 
-<sub>Selected public work · Updated September 2026</sub>
+<sub>Selected public work · Updated October 2026</sub>
