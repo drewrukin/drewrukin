@@ -21,6 +21,7 @@ Each record below credits my contribution as a finder or reporter.
 |  | [CVE-2026-49486](https://www.cve.org/CVERecord?id=CVE-2026-49486) | **Airflow protects the FTPS login with TLS, then sends the file itself without encryption.** |
 |  | [CVE-2026-65017](https://www.cve.org/CVERecord?id=CVE-2026-65017) | Config API exposes a team's Celery broker secret |
 |  | [CVE-2026-68076](https://www.cve.org/CVERecord?id=CVE-2026-68076) | One team can make Airflow log in to another team's service with that team's password. |
+|  | [CVE-2026-86467](https://www.cve.org/CVERecord?id=CVE-2026-86467) | AWS SAML login CSRF logs users into an attacker's account. |
 |  | [CVE-2026-86843](https://www.cve.org/CVERecord?id=CVE-2026-86843) | The Teradata provider example DAG allows SQL injection |
 |  | [GHSA-h6wx…3jg7](https://github.com/andreax79/airflow-code-editor/security/advisories/GHSA-h6wx-5586-3jg7) | Airflow Code Editor lets a read-only viewer upload Python that Airflow executes. |
 | **Apache Hive** | [CVE-2026-53561](https://www.cve.org/CVERecord?id=CVE-2026-53561) | **A forged token with any username is enough to open a real Hive session.** |
