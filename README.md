@@ -4,7 +4,7 @@
 
 I work across software security research, source code analysis, and open-source engineering. Alongside finding and helping resolve vulnerabilities, I develop practical tools and methodologies that make security review more systematic and reproducible.
 
-Public records currently credit my work on 27 CVEs across seven open-source projects.
+Public records currently credit my work on 28 CVEs across seven open-source projects.
 
 Each record below credits my contribution as a finder or reporter.
 
@@ -35,6 +35,7 @@ Each record below credits my contribution as a finder or reporter.
 |  | [CVE-2026-97720](https://www.cve.org/CVERecord?id=CVE-2026-97720) | **A JWT with any username and any non-empty signature gets full access to the Impala executor Web UI.** |
 | **FreeIPA** | [CVE-2026-14612](https://www.cve.org/CVERecord?id=CVE-2026-14612) | Off-by-one errors overflow buffers during OAuth2 device authorization |
 |  | [CVE-2026-19550](https://www.cve.org/CVERecord?id=CVE-2026-19550) | The trust refresh operation allows unauthorized LDAP writes |
+|  | [CVE-2026-115221](https://www.cve.org/CVERecord?id=CVE-2026-115221) | An enrolled host can view and revoke other identities' certificates. |
 | **389 Directory Server** | [CVE-2026-14969](https://www.cve.org/CVERecord?id=CVE-2026-14969) | Attribute encryption uses a static initialization vector |
 |  | [CVE-2026-15041](https://www.cve.org/CVERecord?id=CVE-2026-15041) | PBKDF2 password verification uses a non-constant-time comparison |
 |  | [CVE-2026-18651](https://www.cve.org/CVERecord?id=CVE-2026-18651) | A failed SASL bind keeps a locked account logged in |
