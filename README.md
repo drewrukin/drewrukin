@@ -1,6 +1,6 @@
 # Andrew Rukin (Андрей Рукин)
 
-**Security researcher · Open source contributor · LLM security review tooling**
+**Security researcher**
 
 I work across software security research, source code analysis, and open-source engineering. Alongside finding and helping resolve vulnerabilities, I develop practical tools and methodologies that make security review more systematic and reproducible.
 
