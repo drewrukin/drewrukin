@@ -41,6 +41,7 @@ Each record below credits my contribution as a finder or reporter.
 |  | [CVE-2026-18651](https://www.cve.org/CVERecord?id=CVE-2026-18651) | A failed SASL bind keeps a locked account logged in |
 |  | [CVE-2026-19404](https://www.cve.org/CVERecord?id=CVE-2026-19404) | Anonymous LDAP clients can start or stop CleanAllRUV maintenance |
 |  | **[CVE-2026-19843](https://www.cve.org/CVERecord?id=CVE-2026-19843)** | **A crafted LDAP entry name becomes a root command when an administrator opens it.** |
+| **Graphite Carbon** | [GHSA-465h…m286](https://github.com/graphite-project/carbon/security/advisories/GHSA-465h-6wj7-m286) | An empty password bypasses Carbon's configured SSH keys and executes code as the Carbon service. |
 
 ### Selected upstream fixes
 
