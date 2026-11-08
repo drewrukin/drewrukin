@@ -4,7 +4,7 @@
 
 I work across software security research, source code analysis, and open-source engineering. Alongside finding and helping resolve vulnerabilities, I develop practical tools and methodologies that make security review more systematic and reproducible.
 
-Public records currently credit my work on 28 CVEs across seven open-source projects.
+Public records currently credit my work on 28 CVEs and 2 GHSAs across eight open-source projects.
 
 Each record below credits my contribution as a finder or reporter.
 
