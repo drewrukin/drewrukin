@@ -4,7 +4,7 @@
 
 I work across software security research, source code analysis, and open-source engineering. Alongside finding and helping resolve vulnerabilities, I develop practical tools and methodologies that make security review more systematic and reproducible.
 
-Public records currently credit my work on 29 CVEs and 2 GHSAs across eight open-source projects.
+Public records currently credit my work on 30 CVEs and 2 GHSAs across eight open-source projects.
 
 Each record below credits my contribution as a finder or reporter.
 
@@ -26,6 +26,7 @@ Each record below credits my contribution as a finder or reporter.
 |  | [CVE-2026-86467](https://www.cve.org/CVERecord?id=CVE-2026-86467) | AWS SAML login CSRF logs users into an attacker's account. |
 |  | [CVE-2026-86843](https://www.cve.org/CVERecord?id=CVE-2026-86843) | The Teradata provider example DAG allows SQL injection |
 |  | [CVE-2026-96285](https://www.cve.org/CVERecord?id=CVE-2026-96285) | The Scheduler runs code while opening task data, before checking whether the data is valid. |
+|  | **[CVE-2026-101031](https://www.cve.org/CVERecord?id=CVE-2026-101031)** | **A fake “what is my IP?” service makes Airflow’s example DAG run a shell command on the worker.** |
 |  | [GHSA-h6wx…3jg7](https://github.com/andreax79/airflow-code-editor/security/advisories/GHSA-h6wx-5586-3jg7) | Airflow Code Editor lets a read-only viewer upload Python that Airflow executes. |
 | **Apache Hive** | **[CVE-2026-53561](https://www.cve.org/CVERecord?id=CVE-2026-53561)** | **A forged token with any username is enough to open a real Hive session.** |
 | **Apache HBase** | [CVE-2026-49326](https://www.cve.org/CVERecord?id=CVE-2026-49326) | The Thrift service lets one user take over another user's scanner |
