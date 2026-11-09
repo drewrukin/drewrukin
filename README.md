@@ -25,7 +25,7 @@ Each record below credits my contribution as a finder or reporter.
 |  | [CVE-2026-68076](https://www.cve.org/CVERecord?id=CVE-2026-68076) | One team can make Airflow log in to another team's service with that team's password. |
 |  | [CVE-2026-86467](https://www.cve.org/CVERecord?id=CVE-2026-86467) | AWS SAML login CSRF logs users into an attacker's account. |
 |  | [CVE-2026-86843](https://www.cve.org/CVERecord?id=CVE-2026-86843) | The Teradata provider example DAG allows SQL injection |
-|  | [CVE-2026-96285](https://www.cve.org/CVERecord?id=CVE-2026-96285) | The Scheduler runs code while opening task data, before checking whether the data is valid. |
+|  | [CVE-2026-96285](https://www.cve.org/CVERecord?id=CVE-2026-96285) | Task data can trigger code execution inside Airflow’s Scheduler through Python object creation. |
 |  | **[CVE-2026-101031](https://www.cve.org/CVERecord?id=CVE-2026-101031)** | **A fake “what is my IP?” service makes Airflow’s example DAG run a shell command on the worker.** |
 |  | [GHSA-h6wx…3jg7](https://github.com/andreax79/airflow-code-editor/security/advisories/GHSA-h6wx-5586-3jg7) | Airflow Code Editor lets a read-only viewer upload Python that Airflow executes. |
 | **Apache Hive** | **[CVE-2026-53561](https://www.cve.org/CVERecord?id=CVE-2026-53561)** | **Hive accepts bad SAML signatures and logs anyone in as any user.** |
