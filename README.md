@@ -31,7 +31,7 @@ Each record below credits my contribution as a finder or reporter.
 | **Apache Hive** | **[CVE-2026-53561](https://www.cve.org/CVERecord?id=CVE-2026-53561)** | **Hive accepts bad SAML signatures and logs anyone in as any user.** |
 | **Apache HBase** | [CVE-2026-49326](https://www.cve.org/CVERecord?id=CVE-2026-49326) | The Thrift service lets one user take over another user's scanner |
 | **Apache Impala** | **[CVE-2026-56207](https://www.cve.org/CVERecord?id=CVE-2026-56207)** | **Impala accepts the wrong signature and logs the attacker in as any chosen user.** |
-|  | **[CVE-2026-57866](https://www.cve.org/CVERecord?id=CVE-2026-57866)** | **A single SQL query can send Impala's cluster-managed AI API key to an attacker-controlled server.** |
+|  | **[CVE-2026-57866](https://www.cve.org/CVERecord?id=CVE-2026-57866)** | **A SQL query with “api.openai.com” anywhere in the URL makes Impala send the cluster’s AI API key to an attacker’s server.** |
 |  | **[CVE-2026-93684](https://www.cve.org/CVERecord?id=CVE-2026-93684)** | **A table alias turns a SQL query into stored XSS in another user's browser.** |
 |  | [CVE-2026-90466](https://www.cve.org/CVERecord?id=CVE-2026-90466) | JAR path traversal executes code outside the trusted folder. |
 |  | **[CVE-2026-97720](https://www.cve.org/CVERecord?id=CVE-2026-97720)** | **A JWT with any username and any non-empty signature gets full access to the Impala executor Web UI.** |
