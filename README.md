@@ -28,7 +28,7 @@ Each record below credits my contribution as a finder or reporter.
 |  | [CVE-2026-96285](https://www.cve.org/CVERecord?id=CVE-2026-96285) | The Scheduler runs code while opening task data, before checking whether the data is valid. |
 |  | **[CVE-2026-101031](https://www.cve.org/CVERecord?id=CVE-2026-101031)** | **A fake “what is my IP?” service makes Airflow’s example DAG run a shell command on the worker.** |
 |  | [GHSA-h6wx…3jg7](https://github.com/andreax79/airflow-code-editor/security/advisories/GHSA-h6wx-5586-3jg7) | Airflow Code Editor lets a read-only viewer upload Python that Airflow executes. |
-| **Apache Hive** | **[CVE-2026-53561](https://www.cve.org/CVERecord?id=CVE-2026-53561)** | **A forged token with any username is enough to open a real Hive session.** |
+| **Apache Hive** | **[CVE-2026-53561](https://www.cve.org/CVERecord?id=CVE-2026-53561)** | **Hive accepts bad SAML signatures and logs anyone in as any user.** |
 | **Apache HBase** | [CVE-2026-49326](https://www.cve.org/CVERecord?id=CVE-2026-49326) | The Thrift service lets one user take over another user's scanner |
 | **Apache Impala** | **[CVE-2026-56207](https://www.cve.org/CVERecord?id=CVE-2026-56207)** | **Impala accepts the wrong signature and logs the attacker in as any chosen user.** |
 |  | **[CVE-2026-57866](https://www.cve.org/CVERecord?id=CVE-2026-57866)** | **A single SQL query can send Impala's cluster-managed AI API key to an attacker-controlled server.** |
