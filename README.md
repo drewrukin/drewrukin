@@ -53,6 +53,7 @@ Each record below credits my contribution as a finder or reporter.
 |  | [Stop Airflow from sending files without encryption after an FTPS error](https://github.com/apache/airflow/pull/74183) |
 |  | [Keep sensitive edge worker workloads out of logs](https://github.com/apache/airflow/pull/68355) |
 | Apache Hadoop / HDFS | [Mask delegation tokens in WebHDFS client logs](https://github.com/apache/hadoop/pull/8565) |
+| FreeIPA | [Stop old passkey responses from being used to log in again](https://github.com/freeipa/freeipa/pull/8508) |
 | 389 Directory Server | [Reject mismatched certificate names in dynamic certificate requests](https://github.com/389ds/389-ds-base/pull/7680) |
 |  | [Prevent authentication with truncated MD5 and GOST-YESCRYPT password verifiers](https://github.com/389ds/389-ds-base/pull/7849) |
 |  | [Check password history for every value in a multi-password change](https://github.com/389ds/389-ds-base/pull/7888) |
