@@ -4,7 +4,7 @@
 
 I work across software security research, source code analysis, and open-source engineering. Alongside finding and helping resolve vulnerabilities, I develop practical tools and methodologies that make security review more systematic and reproducible.
 
-Public records currently credit my work on 30 CVEs and 2 GHSAs across eight open-source projects.
+Public records currently credit my work on 31 CVEs and 2 GHSAs across nine open-source projects.
 
 Each record below credits my contribution as a finder or reporter.
 
@@ -35,6 +35,7 @@ Each record below credits my contribution as a finder or reporter.
 |  | **[CVE-2026-93684](https://www.cve.org/CVERecord?id=CVE-2026-93684)** | **A table alias turns a SQL query into stored XSS in another user's browser.** |
 |  | [CVE-2026-90466](https://www.cve.org/CVERecord?id=CVE-2026-90466) | JAR path traversal executes code outside the trusted folder. |
 |  | **[CVE-2026-97720](https://www.cve.org/CVERecord?id=CVE-2026-97720)** | **A JWT with any username and any non-empty signature gets full access to the Impala executor Web UI.** |
+| **Apache Solr** | [CVE-2026-86312](https://www.cve.org/CVERecord?id=CVE-2026-86312) | Under some configurations, `/admin/ping` bypasses collection read and update permissions. |
 | **FreeIPA** | [CVE-2026-14612](https://www.cve.org/CVERecord?id=CVE-2026-14612) | Off-by-one errors overflow buffers during OAuth2 device authorization |
 |  | [CVE-2026-19550](https://www.cve.org/CVERecord?id=CVE-2026-19550) | The trust refresh operation allows unauthorized LDAP writes |
 |  | [CVE-2026-115221](https://www.cve.org/CVERecord?id=CVE-2026-115221) | An enrolled host can view and revoke other identities' certificates. |
